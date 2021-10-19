@@ -1,0 +1,7 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../TPU.srcs/sources_1/new/Systolic_Mem.vhd" \
+"../../../../TPU.srcs/sim_1/new/systolic_mem_tb.vhd" \
+
+# Do not sort compile order
+nosort

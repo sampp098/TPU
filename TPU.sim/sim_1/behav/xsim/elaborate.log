@@ -1,0 +1,20 @@
+Vivado Simulator 2019.1
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2019.1/bin/unwrapped/win64.o/xelab.exe -wto 0c588d69ba814fb78c68ee91823e2d85 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L xilinx_vip -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot TPU_4x4_tb_behav xil_defaultlib.TPU_4x4_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling module xil_defaultlib.glbl
+Compiling architecture behavioral of entity xil_defaultlib.Systolic_Mem [\Systolic_Mem(rows=16,max_column...]
+Compiling architecture behavioral of entity xil_defaultlib.Systolic_Mem [\Systolic_Mem(rows=16,nbit=20,ma...]
+Compiling architecture behavioral of entity xil_defaultlib.MAC [\MAC(bnbit=20,acnbit=20)\]
+Compiling architecture behavioral of entity xil_defaultlib.MXU [\MXU(bbit=20,sbit=20,c=16,r=16)\]
+Compiling architecture behavioral of entity xil_defaultlib.tpu_4x4_tb
+Built simulation snapshot TPU_4x4_tb_behav
